@@ -1,0 +1,9 @@
+{ "projects" :  
+ [
+   {
+    "name" : "probando-node",
+    "type" : "node",
+    "commands" : "npm install && npm test"        
+   }
+ ]
+}
