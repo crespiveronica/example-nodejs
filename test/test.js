@@ -13,20 +13,10 @@ describe("When testing", function() {
     should.ok(true)
   })
 
-  it("that an error is thrown", function() {
-    throw new Error("You should see that")
-  })
-
   it("an async timeout", function(done) {
     setTimeout(function() {
       done()
     }, 200)
-  })
-
-  it("mocha should timeout", function(done) {
-    setTimeout(function() {
-      done()
-    }, 2010)
   })
 
 })
